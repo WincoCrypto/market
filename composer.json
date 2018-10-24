@@ -1,5 +1,5 @@
 {
-    "name": "WincoCrypto/market",
+    "name": "wincocrypto/market",
     "description": "A PHP component that provides information about Winco currency",
     "type": "library",
     "require-dev": {
