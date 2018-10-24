@@ -1,0 +1,31 @@
+{
+    "name": "winco/market",
+    "description": "A PHP component that provides information about Winco currency",
+    "type": "library",
+    "require-dev": {
+        "phpunit/phpunit": "^7.4"
+    },
+    "authors": [
+        {
+            "name": "WincoCrypt",
+            "email": "support@winco.io"
+        }
+    ],
+    "require": {
+        "php": "^7.1.3",
+        "guzzlehttp/guzzle": "^6.3"
+    },
+    "autoload": {
+        "psr-4": {
+            "Winco\\": "src",
+            "Winco\\Market\\": "src",
+            "Winco\\Services\\FourteenBit\\": "src/Services/FourteenBit",
+            "Winco\\Services\\SouthXchange\\": "src/Services/SouthXchange"
+        }
+    },
+    "scripts": {
+        "test": "vendor/bin/phpunit"
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
